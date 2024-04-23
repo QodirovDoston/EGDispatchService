@@ -41,7 +41,7 @@ export const DispatchServicesPage = () => {
             <h3 className="text-3xl">Get Started Today!</h3>
             <a href="" className="flex justify-center">
               <button
-                className={`text-white rounded-[22px] mt-5 border-2 flex gap-2 bg-primary duration-150 transition hover:border-gray-400 font-medium text-md  px-5 py-2.5 text-center hover:scale-105`}
+                className={`text-white rounded-[22px] mt-5 border-2 flex gap-2 bg-primary duration-500 transition hover:border-gray-400 font-medium text-md  px-5 py-2.5 text-center hover:scale-105`}
               >
                 <Image
                   className="hover:scale-110 duration-500"

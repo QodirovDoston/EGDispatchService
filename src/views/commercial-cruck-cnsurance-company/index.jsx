@@ -53,7 +53,7 @@ const CommercialTruckInsuranceCompanyPage = () => {
                   addStyle="bg-green-700 mt-5"
                 />
                 <p className="text-text-color py-6 leading-10">
-                  EG Service has partnered with INSURANCEHUB to offer you the
+                  EG  Service has partnered with INSURANCEHUB to offer you the
                   most affordable quotes in the industry.
                 </p>
               </div>

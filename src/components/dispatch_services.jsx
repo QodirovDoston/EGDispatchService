@@ -8,9 +8,9 @@ const DispatchServices = () => {
   return (
     <div className="bg-gray-100 pb-8 pt-16 path">
       <div className="xl:w-[80%] w-[95%] mx-auto">
-        <h1 className="text-gray-600 text-3xl text-center font-bold mt-12">
-          We save you time and make you money with our Truck Dispatch Services
-          EG Service content.
+        <h1 className="text-gray-600 text-3xl text-center font-bold xl:mt-12 md:mt-32 mt-4"> 
+          We save you time and make you money with our
+          EG Dispatch Service content.
         </h1>
         <div className="grid xl:grid-cols-2 grid-cols-1">
           <div>

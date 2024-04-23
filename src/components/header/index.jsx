@@ -100,7 +100,7 @@ const index = () => {
             data-collapse-toggle="navbar-sticky"
             onClick={() => setToggle(!toggle)}
             type="button"
-            className="items-center p-3 w-11 h-11 text-xl text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200  dark:focus:ring-gray-600 hover:scale-105"
+            className="items-center p-3 w-11 h-11 text-xl text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none duration-500 focus:ring-2 focus:ring-gray-200  dark:focus:ring-gray-600 hover:scale-105"
             aria-controls="navbar-sticky"
             aria-expanded="false"
           >

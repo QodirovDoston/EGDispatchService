@@ -73,7 +73,7 @@ const callUsToday = () => {
                       {item.title}
                     </p>
                     <a href={item.link}>
-                    <button className="text-white rounded-[22px] border-2 border-white duration-150 transition hover:border-primary hover:text-primary hover:scale-105 font-medium text-lg  px-5 py-2.5 text-center ">
+                    <button className="text-white rounded-[22px] border-2 border-white duration-500 transition hover:border-primary hover:text-primary hover:scale-105 font-medium text-lg  px-5 py-2.5 text-center ">
                       Learn More
                     </button>
                     </a>
@@ -105,7 +105,7 @@ const callUsToday = () => {
                   {item.paragrow}
                 </p>
                  <a href={item.link}>
-                <button className="text-white rounded-[22px] mt-5 bg-primary duration-150 transition hover:bg-primary-dark font-medium text-lg px-10 py-2.5 text-center hover:scale-105">
+                <button className="text-white rounded-[22px] mt-5 bg-primary duration-500 transition hover:bg-primary-dark font-medium text-lg px-10 py-2.5 text-center hover:scale-105">
                   Learn more
                 </button>
                  </a>

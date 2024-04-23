@@ -292,7 +292,7 @@ const BrokerPacketForm = () => {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="text-white rounded-[22px] bg-primary  transition hover:bg-primary-dark duration-500 font-medium text-lg  px-5 py-2.5 text-center hover:scale-105"
+                  className="text-white rounded-[22px] bg-primary transition hover:bg-primary-dark duration-500 font-medium text-lg  px-5 py-2.5 text-center hover:scale-105"
                 >
                   {isSubmitting ? "Submitting..." : "Submit"}
                 </button>

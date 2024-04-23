@@ -14,7 +14,7 @@ const OurTeam = () => {
           to exceed your expectations!
         </p>
         <a href='#serves'>
-        <button className="text-white rounded-[22px] bg-primary duration-150 transition hover:bg-primary-dark font-medium text-lg xl:px-32 px-12 py-2.5 text-center hover:scale-105">
+        <button className="text-white rounded-[22px] bg-primary duration-500 transition hover:bg-primary-dark font-medium text-lg xl:px-32 px-12 py-2.5 text-center hover:scale-105">
           Learn more
         </button>
         </a>

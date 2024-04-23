@@ -32,7 +32,7 @@ export const accardion = [
   {
     title: "Communication",
     paragrow:
-      "Your  EG Service will communicate all required information between the driver and the broker, including check calls and all clarifications."
+      "Your  EG Dispatch Service will communicate all required information between the driver and the broker, including check calls and all clarifications."
   },
   {
     title: "Email",
@@ -55,16 +55,16 @@ export const accardionPersonal = [
   {
     title: "How does factoring work?",
     paragrow:
-      "You, the carrier, haul a load. Your EG Service truck dispatcher submits the paperwork to your factoring company instead of the broker for who you moved the load. You receive payment from the factoring company for the load minus the factoring fee. The factoring company will contact the broker to work out payment for the invoice. The broker will pay the factoring company and not the carrier."
+      "You, the carrier, haul a load. Your EG Dispatch Service truck dispatcher submits the paperwork to your factoring company instead of the broker for who you moved the load. You receive payment from the factoring company for the load minus the factoring fee. The factoring company will contact the broker to work out payment for the invoice. The broker will pay the factoring company and not the carrier."
   },
   {
     title: "Why should I factor?   ",
     paragrow: `Immediate cash flow
      Your credit score doesn’t matter, it isn’t a loan
      Because this isn’t a loan, you will not be accumulating any more debt
-     By allowing your EG Service to handle all your paperwork you will save time for more important things
+     By allowing your EG Dispatch Service to handle all your paperwork you will save time for more important things
      Help to eliminate costly fuel advances
-     Your  EG Service will partner with your factoring company to perform broker credit checks to ensure the load you take will pay out.`
+     Your  EG Dispatch Service will partner with your factoring company to perform broker credit checks to ensure the load you take will pay out.`
   },
   {
     title: "Is there a contract, if so how long?",
@@ -85,7 +85,7 @@ export const accardionPersonal = [
     paragrow: `ACH transfer fee – a factoring company will charge you a fee to put money into your bank account. This fee can range from $3 to $25 depending on the terms of your contract.  You may pay a per-day ACH fee or a per invoice ACH fee.  Our advice is to make sure you understand the terms of your contract before signing on the dotted line.
       Aging Invoice Fee– If the broker takes too long to pay the invoice, your factoring company may charge you an aging fee.
        Minimum factored amount fee – A factoring company may charge you a surcharge if you do not meet the required factored amount or a minimum number of factored invoices for the set period of time.
-      Credit check fee – The broker you are hauling for will be credit checked by your  EG Service and your factoring company.  Some factoring companies will charge you a fee for this service.
+      Credit check fee – The broker you are hauling for will be credit checked by your  EG Dispatch Service and your factoring company.  Some factoring companies will charge you a fee for this service.
       Early Termination Fee- A factoring company will require you to sign for a length of terms in your contract.  That length of terms could be 3 to 6 months or even 1 year. If you decide to stop factoring before your contract is up, you could be charged a fee of $1,000 to $5,000.  We advise that you know what is in your contract before committing to any length of terms.`
   },
   {
@@ -113,10 +113,10 @@ export const accardionPersonal = [
       The other big advantage that we see is that you are not liable for an unpaid invoice, there is no recourse.
       Why would you factor instead of using quick-pay?
       The biggest advantage to factoring is that you can factor in any credit-approved broker, which opens up your options and allows you to take any load you want versus only using a broker who offers quick pay.
-      You do not need to be so organized, your  EG Service will send all the paperwork to your factoring company (for an additional fee) and all your invoices will be in one place.
+      You do not need to be so organized, your  EG Dispatch Service will send all the paperwork to your factoring company (for an additional fee) and all your invoices will be in one place.
       You will get paid FASTER! Most times it is the same day or the next day at the latest.
       Factoring is usually more affordable because you are charged the same rate with each invoice versus having a different rate depending on which broker you are quick-paying with.
-      Bottom Line:  You need to do what is BEST for your business.  If you need help making this decision, let us know at EG Service and we will help guide you to make the best choice for your trucking business.`
+      Bottom Line:  You need to do what is BEST for your business.  If you need help making this decision, let us know at EG Dispatch Service and we will help guide you to make the best choice for your trucking business.`
   },
   {
     title: "How soon can I expect payment?",
@@ -146,10 +146,10 @@ export const accardionPersonal = [
       The other big advantage that we see is that you are not liable for an unpaid invoice, there is no recourse.
       Why would you factor instead of using quick-pay?
       The biggest advantage to factoring is that you can factor in any credit-approved broker, which opens up your options and allows you to take any load you want versus only using a broker who offers quick pay.
-      You do not need to be so organized, your  EG Service will send all the paperwork to your factoring company (for an additional fee) and all your invoices will be in one place.
+      You do not need to be so organized, your  EG Dispatch Service will send all the paperwork to your factoring company (for an additional fee) and all your invoices will be in one place.
       You will get paid FASTER! Most times it is the same day or the next day at the latest.
       Factoring is usually more affordable because you are charged the same rate with each invoice versus having a different rate depending on which broker you are quick-paying with.
-      Bottom Line:  You need to do what is BEST for your business.  If you need help making this decision, let us know at  EG Service and we will help guide you to make the best choice for your trucking business.`
+      Bottom Line:  You need to do what is BEST for your business.  If you need help making this decision, let us know at  EG Dispatch Service and we will help guide you to make the best choice for your trucking business.`
   }
 ];
 
@@ -173,7 +173,7 @@ export const sikkl = [
 
 export const aboutUs = [
   {
-    title: "EG Service, CEO & Owner",
+    title: "EG Dispatch Service, CEO & Owner",
     paragrow:
       "Your personal dispatcher is an expert in their field that can skillfully negotiate the best rates for you on the best loads."
   },
@@ -185,7 +185,7 @@ export const aboutUs = [
   {
     title: "Debbie, Office Support",
     paragrow:
-      "She is the newest team member at M&EG Service specializing in back office support."
+      "She is the newest team member at EG Dispatch Service specializing in back office support."
   }
 ];
 
@@ -193,21 +193,21 @@ export const caruselBlogFordata = [
   {
     title: "Testimonials",
     paragrow:
-      "MAKING MORE MONEY THAN EVER!! We’ve been using EG Service for dispatching our truck for a few months now and we could tell the difference from the first week. We were making more money than we had ever made before and it still continues. As small business owners with other full time jobs we just didn’t have the time to do our own dispatching and EG Service and his team have taken a huge weight off us so that we can concentrate on building our company. As a new authority we had a lot of broker contracts to get, which meant sending a lot of broker packets off and EG Service  and his team have done all of that for us…another huge workload that we didn’t have to deal with and something we really appreciate. I can’t recommend this company highly enough for truck dispatching, they really saved us when things weren’t looking too good. A first class company!",
+      "MAKING MORE MONEY THAN EVER!! We’ve been using EG Dispatch Service for dispatching our truck for a few months now and we could tell the difference from the first week. We were making more money than we had ever made before and it still continues. As small business owners with other full time jobs we just didn’t have the time to do our own dispatching and EG Dispatch Service and his team have taken a huge weight off us so that we can concentrate on building our company. As a new authority we had a lot of broker contracts to get, which meant sending a lot of broker packets off and EG Dispatch Service  and his team have done all of that for us…another huge workload that we didn’t have to deal with and something we really appreciate. I can’t recommend this company highly enough for truck dispatching, they really saved us when things weren’t looking too good. A first class company!",
     src: "https://mjdispatch.com/wp-content/uploads/2019/01/testimonial-background.jpg",
     alt: "Image 8"
   },
   {
     title: "Testimonials",
     paragrow:
-      "AS GOOD AS THEY COME! I have been doing business with EG Service now for about 3 months and I can honestly say that you will not do business with more friendly, caring , and honest people. They are always willing to go the extra mile to help. They have done a great job with keeping my truck rolling and generating the revenue that I need. If you are considering them for their services, I would not hesitate to call them. Give them a chance and you will not be disappointed!!!!! 👍🏼👍🏼",
+      "AS GOOD AS THEY COME! I have been doing business with EG Dispatch Service now for about 3 months and I can honestly say that you will not do business with more friendly, caring , and honest people. They are always willing to go the extra mile to help. They have done a great job with keeping my truck rolling and generating the revenue that I need. If you are considering them for their services, I would not hesitate to call them. Give them a chance and you will not be disappointed!!!!! 👍🏼👍🏼",
     src: "https://mjdispatch.com/wp-content/uploads/2019/01/testimonial-background.jpg",
     alt: "Image 8"
   },
   {
     title: "Testimonials",
     paragrow:
-      "EG Service KNOWS THE BUSINESS BETTER THAN ANYONE….. EG Service has taught me so much over the years, he truly understands logistics and how to be successful within the industry. Regardless if you are looking to dispatch, broker or become a carrier, or even utilize him as your dispatcher, EG Service  knows how to help you. You will not regret picking up the phone and giving EG Service a call.",
+      "EG Dispatch Service KNOWS THE BUSINESS BETTER THAN ANYONE….. EG Dispatch Service has taught me so much over the years, he truly understands logistics and how to be successful within the industry. Regardless if you are looking to dispatch, broker or become a carrier, or even utilize him as your dispatcher, EG Dispatch Service  knows how to help you. You will not regret picking up the phone and giving EG Dispatch Service a call.",
     src: "https://mjdispatch.com/wp-content/uploads/2019/01/testimonial-background.jpg",
     alt: "Image 8"
   }
@@ -271,7 +271,7 @@ export const persondata = [
     img: deal,
     title: "Communication",
     parag:
-      "Your  EG Service will communicate all required information between the driver and the broker, including check calls and all clarifications."
+      "Your  EG Dispatch Service will communicate all required information between the driver and the broker, including check calls and all clarifications."
   },
   {
     img: truck,
@@ -328,7 +328,7 @@ export const dispachCarddata = [
     img: deal,
     title: "Communication",
     parag:
-      "Your  EG Service will communicate all required information between the driver and the broker, including check calls and all clarifications."
+      "Your  EG Dispatch Service will communicate all required information between the driver and the broker, including check calls and all clarifications."
   },
   {
     img: deal,
@@ -401,7 +401,7 @@ export const news = [
   {
     img: dispatcher1,
     title:
-      "Understanding the Importance of Trailer Leasing and Dispatching with EG Service ",
+      "Understanding the Importance of Trailer Leasing and Dispatching with EG Dispatch Service ",
     disc: "In the vast, ever-evolving logistics and transportation landscape, efficiency and scalability are key. Whether you're"
   },
   {
@@ -415,42 +415,42 @@ export const cruseldata = [
   {
     title: "I Can’t Express Enough",
     paragrow:
-      "I can’t express enough the pleasure it is to talk with EG Service  about the trucking industry and dispatching, There is so much more to the industry and dispatching than people realize. He takes the time to break it down and explain how all the pieces fit together. His patience and willingness to share his knowledge are greatly appreciated. I personally consider EG Service  as a good friend and appreciate the door of knowledge he has extended to me and hope that others do as well. Thank you, EG Service. I wish you great success.",
+      "I can’t express enough the pleasure it is to talk with EG Dispatch Service  about the trucking industry and dispatching, There is so much more to the industry and dispatching than people realize. He takes the time to break it down and explain how all the pieces fit together. His patience and willingness to share his knowledge are greatly appreciated. I personally consider EG Dispatch Service  as a good friend and appreciate the door of knowledge he has extended to me and hope that others do as well. Thank you, EG Dispatch Service. I wish you great success.",
     name: "Kathie Strangio",
     discrabe: "C Style Services Inc"
   },
   {
     title: "Great People Great Company",
     paragrow:
-      "I’ve been using their services for 5 months and it’s one of the best companies I’ve worked with by far. EG Service and his team are always available to help and always find a way to get you out of any situation you might run across.",
+      "I’ve been using their services for 5 months and it’s one of the best companies I’ve worked with by far. EG Dispatch Service and his team are always available to help and always find a way to get you out of any situation you might run across.",
     name: "Ken",
     discrabe: "Timeless Solutions"
   },
   {
     title: "Great People Great Company",
     paragrow:
-      "I’ve been using their services for 5 months and it’s one of the best companies I’ve worked with by far. EG Service  and his team are always available to help and always find a way to get you out of any situation you might run across.",
+      "I’ve been using their services for 5 months and it’s one of the best companies I’ve worked with by far. EG Dispatch Service  and his team are always available to help and always find a way to get you out of any situation you might run across.",
     name: "Ken",
     discrabe: "Timeless Solutions "
   },
   {
     title: "Great People Great Company",
     paragrow:
-      "I’ve been using their services for 5 months and it’s one of the best companies I’ve worked with by far. EG Service  and his team are always available to help and always find a way to get you out of any situation you might run across.",
+      "I’ve been using their services for 5 months and it’s one of the best companies I’ve worked with by far. EG  DispatchService  and his team are always available to help and always find a way to get you out of any situation you might run across.",
     name: "Ken",
     discrabe: "Timeless Solutions LLC"
   },
   {
     title: "Great People Great Company",
     discrabe:
-      "I’ve been using their services for 5 months and it’s one of the best companies I’ve worked with by far. EG Service  and his team are always available to help and always find a way to get you out of any situation you might run across.",
+      "I’ve been using their services for 5 months and it’s one of the best companies I’ve worked with by far. EG Dispatch Service  and his team are always available to help and always find a way to get you out of any situation you might run across.",
     name: "Ken",
     discrabe: "Timeless Solutions LLC"
   },
   {
     title: "Great People Great Company",
     paragrow:
-      "I’ve been using their services for 5 months and it’s one of the best companies I’ve worked with by far. EG Service  and his team are always available to help and always find a way to get you out of any situation you might run across.",
+      "I’ve been using their services for 5 months and it’s one of the best companies I’ve worked with by far. EG DispatchService  and his team are always available to help and always find a way to get you out of any situation you might run across.",
     name: "Ken",
     discrabe: "Timeless Solutions LLC"
   }
