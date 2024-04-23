@@ -1,3 +1,5 @@
 {
+  "/partners/page": "app/partners/page.js",
+  "/dispatch-services/page": "app/dispatch-services/page.js",
   "/page": "app/page.js"
 }

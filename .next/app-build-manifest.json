@@ -11,6 +11,18 @@
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
+    ],
+    "/dispatch-services/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/dispatch-services/page.css",
+      "static/chunks/app/dispatch-services/page.js"
+    ],
+    "/partners/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/partners/page.css",
+      "static/chunks/app/partners/page.js"
     ]
   }
 }

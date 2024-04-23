@@ -7,10 +7,10 @@ import CaruselAbsolute from "../../components/caruselabsolute";
 import { caruselBlogFordata } from "../../utils";
 import iqro from "../../../public/iqro.png";
 import partnor from "../../../public/OurPart1.jpg";
+import EGDispatch from "../../../public/EGDispatch.png";
+import aboutUs from "../../../public/aboutus.jpg";
 
 // import {Marquee} from "react-fast-marquee";
-
-import aboutUs from "../../../public/aboutus.jpg";
 
 const PartnersPage = () => {
   const img = [
@@ -19,6 +19,8 @@ const PartnersPage = () => {
     {img:partnor,link:"https://owneroperatorleaseon.com/"
     },
     {img:iqro,link:"https://owneroperatorleaseon.com/"
+    },
+    {img:EGDispatch,link:"https://owneroperatorleaseon.com/"
     }
   ];
   return (
