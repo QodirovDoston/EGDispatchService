@@ -6,6 +6,7 @@ import insto from "../../assets/ijimoiyTarmoq/insto.svg";
 import telegram from "../../assets/ijimoiyTarmoq/telegram.svg";
 import facebook from "../../assets/ijimoiyTarmoq/facebook.svg";
 import whatsapp from "../../assets/ijimoiyTarmoq/whatsapp.svg";
+import logo from '../../../public/logoPng.png'
 
 const social = [
   { img: facebook, link: "https://www.facebook.com" },
@@ -31,7 +32,7 @@ const index = () => {
               width={350}
               height={350}
               alt="hero img"
-              src="https://mjdispatch.com/wp-content/uploads/2023/03/MJ-Logo-2x-400x1241-1.png"
+              src={logo}
             />
             <p className="text-white ">
               EG Dispatch Service Consulting and Training is here for all your dispatch

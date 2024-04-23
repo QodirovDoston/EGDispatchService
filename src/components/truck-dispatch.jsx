@@ -15,7 +15,7 @@ const DruckDispatch = () => {
       </p>
       <a href="#" className="flex justify-center">
         <button
-          className={`text-white rounded-[22px] border-2 flex gap-2 bg-primary duration-150 transition hover:border-primary font-medium text-lg  px-5 py-2.5 text-center`}
+          className={`text-white rounded-[22px] border-2 flex gap-2 bg-primary duration-150 transition hover:border-primary font-medium text-lg  px-5 py-2.5 text-center hover:scale-105`}
         >
           <Image
             className="hover:scale-110 duration-500"

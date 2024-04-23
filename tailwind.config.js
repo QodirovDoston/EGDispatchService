@@ -30,8 +30,8 @@ module.exports = {
       },
       colors: {
         'nav_color': '#2F38CB',
-        'primary': '#00c4cc',
-        'primary-dark': '#27a5a9',
+        'primary': '#37c6ff',
+        'primary-dark': '#18B2EF',
         'transparent': 'rgba(255, 255, 255, 0)',
         'text-color': '#0B2D96',
       },

@@ -181,7 +181,7 @@ const index = () => {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="text-white rounded-[22px] bg-primary duration-150 transition hover:bg-primary-dark font-medium text-lg  px-5 py-2.5 text-center"
+                  className="text-white rounded-[22px] bg-primary duration-150 transition hover:bg-primary-dark font-medium text-lg  px-5 py-2.5 text-center hover:scale-105"
                 >
                   {isSubmitting ? "Submitting..." : "Submit"}
                 </button>

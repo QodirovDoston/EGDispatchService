@@ -35,7 +35,7 @@ const LatestNews = () => {
             })}
           </div>
           <a className='flex justify-center' href="tel:+998500033940">
-          <button className="text-white rounded-[22px] bg-primary duration-150 transition hover:bg-primary-dark font-medium text-lg xl:px-32 px-12 py-2.5 text-center xl:mt-1 mb-12">
+          <button className="text-white rounded-[22px] bg-primary duration-150 transition hover:bg-primary-dark font-medium text-lg xl:px-32 px-12 py-2.5 text-center xl:mt-1 mb-12 hover:scale-105">
           Learn more
         </button>
           </a>

@@ -18,7 +18,7 @@ const Insurance = () => {
       <div className="container">
         <div className="grid xl:grid-cols-2 grid-cols-1">
           <div className="relative xl:m-16 m-2">
-            <button className="absolute py-1 px-4 -left-6 -top-1 -rotate-[45deg] border border-gray-200 bg-primary text-white font-bold">
+            <button className="absolute py-1 px-4 -left-6 -top-1 -rotate-[45deg] border border-gray-200 bg-primary text-white font-bold hover:scale-105">
               NEW
             </button>
             <div className="purple_border xl:p-8 p-4 border shadow rounded-xl border-gray-300 text-center bg-white">
@@ -34,7 +34,7 @@ const Insurance = () => {
                 on the road, FMCSA (trucking governing authority) requires you
                 to obtain specific insurance and limits.
               </p>
-              <button className="text-white rounded-[22px] mt-5 bg-primary duration-150 transition hover:bg-text-color font-medium text-lg px-10 py-2.5 text-center">
+              <button className="text-white rounded-[22px] mt-5 bg-primary duration-150 transition hover:bg-text-color font-medium text-lg px-10 py-2.5 text-center hover:scale-105">
                 GET A QUOTE
               </button>
             </div>

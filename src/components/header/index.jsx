@@ -83,12 +83,12 @@ const index = () => {
               </div>
               {/* Qo'llab-quvvat */}
               <div className="block">
-                <div className="mb-1 bg-primary xl:py-2 py-1 px-6 text-lg hover:bg-[#27a5a9] duration-700 text-white rounded-2xl text-center">
+                <div className="mb-1 bg-primary xl:py-2 py-1 px-6 text-lg hover:bg-primary-dark hover:scale-105 duration-700 text-white rounded-2xl text-center">
                   <a className="" href="tel:15404409208">
                     New Carrier Form
                   </a>
                 </div>
-                <div className="mb-1 bg-primary xl:py-2 py-1 px-4 text-lg hover:bg-[#27a5a9] duration-700 text-white rounded-2xl text-center">
+                <div className="mb-1 bg-primary xl:py-2 py-1 px-4 text-lg hover:bg-primary-dark hover:scale-105 duration-700 text-white rounded-2xl text-center">
                   <a href="tel:+15404409208">Click to call</a>
                 </div>
               </div>
@@ -100,7 +100,7 @@ const index = () => {
             data-collapse-toggle="navbar-sticky"
             onClick={() => setToggle(!toggle)}
             type="button"
-            className="items-center p-3 w-11 h-11 text-xl text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200  dark:focus:ring-gray-600"
+            className="items-center p-3 w-11 h-11 text-xl text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200  dark:focus:ring-gray-600 hover:scale-105"
             aria-controls="navbar-sticky"
             aria-expanded="false"
           >

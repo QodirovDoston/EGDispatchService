@@ -41,7 +41,7 @@ const types_for_Truck = () => {
           We look forward to hearing from you soon.
         </p>
         <a href="tel:+1540 4409208">
-          <button className="text-white rounded-[22px] mt-5 border-2 flex gap-2 bg-primary duration-150 transition hover:border-gray-400 font-medium text-md  px-5 py-2.5 text-center">
+          <button className="text-white rounded-[22px] mt-5 border-2 flex gap-2 bg-primary duration-150 transition hover:border-gray-400 font-medium text-md  px-5 py-2.5 text-center hover:scale-105">
             Submit
           </button>
         </a>

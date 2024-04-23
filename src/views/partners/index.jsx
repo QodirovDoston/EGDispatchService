@@ -33,7 +33,7 @@ const PartnersPage = () => {
       <div className="xl:w-[80%] w-[95%] mx-auto">
         <div>
           <h1 className="text-primary text-3xl text-center font-bold my-10">
-            Empire Dispatch Service
+            EG Dispatch Service
           </h1>
           <div className="grid lg:grid-cols-2 grid-cols-1 place-items-center">
             <Image width={500} height={500} alt="hero img" src={aboutUs} />
