@@ -12,17 +12,16 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/dispatch-services/page": [
+    "/contact-us/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/dispatch-services/page.css",
-      "static/chunks/app/dispatch-services/page.js"
+      "static/css/app/contact-us/page.css",
+      "static/chunks/app/contact-us/page.js"
     ],
-    "/partners/page": [
+    "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/partners/page.css",
-      "static/chunks/app/partners/page.js"
+      "static/chunks/app/not-found.js"
     ]
   }
 }

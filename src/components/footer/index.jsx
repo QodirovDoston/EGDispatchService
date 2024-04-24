@@ -6,13 +6,17 @@ import insto from "../../assets/ijimoiyTarmoq/insto.svg";
 import telegram from "../../assets/ijimoiyTarmoq/telegram.svg";
 import facebook from "../../assets/ijimoiyTarmoq/facebook.svg";
 import whatsapp from "../../assets/ijimoiyTarmoq/whatsapp.svg";
+import gmail from "../../assets/ijimoiyTarmoq/gmail.svg";
+
 import logo from '../../../public/logoPng.png'
 
 const social = [
   { img: facebook, link: "https://www.facebook.com" },
   { img: telegram, link: "https://t.me/EmpireGroupTeam" },
   { img: insto, link: "https://www.instagram.com/empire_group_lm?igsh=amU2cGNtMWNmdDQ4&utm_source=qr" },
-  { img: whatsapp, link: "https://wa.me/message/ZV7PAIP47CGJN1?src=qr" }];
+  { img: whatsapp, link: "https://wa.me/message/ZV7PAIP47CGJN1?src=qr" },
+  { img: gmail, link: "mailto: empiregrouplm@gmail.com" }
+];
 
 const index = () => {
   const footerlink = [
