@@ -52,10 +52,11 @@ const CaruselAbsolute = ({data}) => {
       <Slider {...settings}>
         {data?.map((item, index) => {
           return (
-            <div className="relative">
+            <div 
+              key={index}
+            className="relative">
               <img src={item.src} alt={item.alt} className="object-cover xl:h-[430px] md:h-[480px] h-[590px] sm:h-[390px] w-full" />
               <div
-                key={index}
                 className="text-center xl:px-48 md:px-28 px-4 absolute top-0 z-10"
               >
                 <h1 className="text-3xl font-extrabold lg:pt-12 pt-4 xl:pb-7 pb-1">

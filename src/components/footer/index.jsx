@@ -63,8 +63,8 @@ const index = () => {
         <div className="w-[80%] mx-auto">
           <div className="mt-4">
             <div className="text-white flex gap-4 md:justify-end justify-start">
-              {social.map((el) => (
-                <a href={el.link} className="flex gap-2 item-center my-2 cursor-pointer">
+              {social.map((el,ind) => (
+                <a href={el.link} key={ind} className="flex gap-2 item-center my-2 cursor-pointer">
                   <Image className="hover:scale-125 duration-500" width={25} height={25} alt="hero img" src={el.img} />
                 </a>
               ))}
