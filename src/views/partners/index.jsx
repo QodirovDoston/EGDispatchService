@@ -9,20 +9,59 @@ import iqro from "../../../public/iqro.png";
 import partnor from "../../../public/OurPart1.jpg";
 import EGDispatch from "../../../public/EGDispatch.png";
 import aboutUs from "../../../public/aboutus.jpg";
-
+import Slider from "react-slick";
 // import {Marquee} from "react-fast-marquee";
 
 const PartnersPage = () => {
   const img = [
-    {img:"https://owneroperatorleaseon.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo1.95f90d56.jpg&w=750&q=75",link:"https://owneroperatorleaseon.com/"
+    {
+      img: "https://owneroperatorleaseon.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo1.95f90d56.jpg&w=750&q=75",
+      link: "https://owneroperatorleaseon.com/"
     },
-    {img:partnor,link:"https://owneroperatorleaseon.com/"
-    },
-    {img:iqro,link:"https://owneroperatorleaseon.com/"
-    },
-    {img:EGDispatch,link:"https://owneroperatorleaseon.com/"
-    }
+    { img: partnor},
+    { img: iqro, link: "https://iqro.agency/#services" },
+    { img: EGDispatch}
   ];
+  const settings = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    arrows: false,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 500,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      }
+    ]
+  };
   return (
     <>
       <div className="home">
@@ -74,22 +113,25 @@ const PartnersPage = () => {
         </p>
         <div className="flex flex-wrap gap-4 my-8">
           {/* <Marquee> */}
-            {img.map((item, idx) => {
-              return (
-                <a 
-                  className="border border-gray-500 px-3 rounded-xl object-contain flex items-center"
-                href={item.link}>
+          {/* <Slider {...settings}> */}
+          {img.map((item, idx) => {
+            return (
+              <a
+                className="border border-gray-500 px-3 rounded-xl object-contain flex items-center"
+                href={item.link}
+                key={idx}
+              >
                 <Image
                   className="flex items-center"
-                  key={idx}
                   width={200}
                   height={200}
                   alt="hero img"
                   src={item.img}
-                  />
-                  </a>
-              );
-            })}
+                />
+              </a>
+            );
+          })}
+              {/* </Slider> */}
           {/* </Marquee> */}
         </div>
       </div>

@@ -47,8 +47,8 @@ const index = () => {
             <ul className="text-primary-dark cursor-pointer">
               {footerlink.map((item, idx) => {
                 return (
-                  <a href={item.link}>
-                  <li key={idx} className="flex gap-2 item-center">
+                  <a href={item.link} key={idx}>
+                  <li  className="flex gap-2 item-center">
                     <div className="bg-blue-800 w-2 h-2 mt-2 rounded-full" />
                     {item.name}
                   </li>
