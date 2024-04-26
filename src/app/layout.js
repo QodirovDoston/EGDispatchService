@@ -17,12 +17,11 @@ const inter = Arvo({
 export const metadata = {
   title: "Empire Group Service",
   description: "Truck Dispatching",
-  image: "../../public/forLogo1.png",
+  // image: "../../public/forLogo1.png",
   verification: {
-    google: "LpD47DppgiI8Vi3yEnsTy8omH-fncRCSMT1fohZJI8c",
+    google: "pC_VaK6e5WCTJ15t4t6c60I0bIz4clExouxibxcr0qs",
   },
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
