@@ -1,4 +1,4 @@
-import { Arvo, Inter } from "next/font/google";
+import { Arvo } from "next/font/google";
 import "./globals.css";
 
 import BaseLayout from "../components/base-layout";
@@ -15,6 +15,9 @@ const inter = Arvo({
 export const metadata = {
   title: "Empire Group Service",
   description: "Truck Dispatching",
+  image: '../../public/forLogo1.png',
+  // openGraph: {
+  // },
 };
 
 export default function RootLayout({ children }) {

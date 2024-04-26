@@ -125,8 +125,8 @@ const index = () => {
         <div className={toggle ? "block" : "hidden md:block"}>
           <ul className="md:flex block  md:justify-end justify-center flex-wrap xl:gap-20 gap-8 py-3">
             {links.map((item, idx) => {
-                const isActive = router === item.link || (item.dropDownData &&
-                  item.dropDownData.some((d) => d.value === router));
+                const isActive = router === item?.link || (item?.dropDownData &&
+                  item?.dropDownData.some((d) => d?.value === router));
                   return(
                 <li
                   className="flex item-center justify-center hover:bg-gray-200 md:hover:bg-gray-100 md:py-0 py-2 md:border-none border md:border-white border-gray-200"
