@@ -17,16 +17,16 @@ const inter = Arvo({
 export const metadata = {
   title: "Empire Group Service",
   description: "Truck Dispatching",
-  image: "../../public/forLogo1.png"
-  // openGraph: {
-  // },
+  image: "../../public/forLogo1.png",
+  verification: {
+    google: "LpD47DppgiI8Vi3yEnsTy8omH-fncRCSMT1fohZJI8c",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-      <meta name="google-site-verification" content="LpD47DppgiI8Vi3yEnsTy8omH-fncRCSMT1fohZJI8c" />
         <meta
           property="og:image"
           content="https://eg-dispatch-service.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FEGDispatch.9d6e346c.png&w=256&q=75"
