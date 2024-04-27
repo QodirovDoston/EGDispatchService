@@ -27,8 +27,8 @@ const PartnersPage = () => {
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
+    speed: 5000,
+    autoplaySpeed: 5000,
     cssEase: "linear",
     responsive: [
       {
@@ -109,20 +109,20 @@ const PartnersPage = () => {
           all your trucking needs. Give us a call today so we can direct you to
           the right path.
         </p>
-        <div className="my-8">
+        <div className='my-8'>
           <Slider {...settings}>
             {img.map((item, idx) => {
               return (
                 <a
-                className="border border-gray-500 rounded-xl flex justify-center items-center"
+                className="border border-gray-500 rounded-xl flex justify-center items-center px-8"
                 href={item.link}
                 key={idx}
               >
-                <div className="flex items-center justify-center object-contain"> 
+                <div className="w-40 h-40 flex items-center justify-center object-contain"> 
                   <Image
-                    className=""
-                    width={200}
-                    height={200}
+                    className="flex items-center w-full ml-8"
+                    width={300}
+                    height={300}
                     alt="hero img"
                     src={item.img}
                   />
