@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-// import Insurance from "../../components/Insurance";
 import phoneIcon from "../../assets/icons/phone.svg";
 import CaruselAbsolute from "../../components/caruselabsolute";
 import { caruselBlogFordata } from "../../utils";
@@ -10,7 +9,6 @@ import partnor from "../../../public/OurPart1.jpg";
 import EGDispatch from "../../../public/EGDispatch.png";
 import aboutUs from "../../../public/aboutus.jpg";
 import Slider from "react-slick";
-// import {Marquee} from "react-fast-marquee";
 
 const PartnersPage = () => {
   const img = [
@@ -18,9 +16,9 @@ const PartnersPage = () => {
       img: "https://owneroperatorleaseon.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo1.95f90d56.jpg&w=750&q=75",
       link: "https://owneroperatorleaseon.com/"
     },
-    { img: partnor},
+    { img: partnor },
     { img: iqro, link: "https://iqro.agency/#services" },
-    { img: EGDispatch}
+    { img: EGDispatch }
   ];
   const settings = {
     dots: false,
@@ -45,7 +43,7 @@ const PartnersPage = () => {
       {
         breakpoint: 700,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
           dots: false
@@ -111,28 +109,28 @@ const PartnersPage = () => {
           all your trucking needs. Give us a call today so we can direct you to
           the right path.
         </p>
-        <div className="flex flex-wrap gap-4 my-8">
-          {/* <Marquee> */}
-          {/* <Slider {...settings}> */}
-          {img.map((item, idx) => {
-            return (
-              <a
-                className="border border-gray-500 px-3 rounded-xl object-contain flex items-center"
+        <div className="my-8">
+          <Slider {...settings}>
+            {img.map((item, idx) => {
+              return (
+                <a
+                className="border border-gray-500 rounded-xl flex justify-center items-center"
                 href={item.link}
                 key={idx}
               >
-                <Image
-                  className="flex items-center"
-                  width={200}
-                  height={200}
-                  alt="hero img"
-                  src={item.img}
-                />
+                <div className="flex items-center justify-center object-contain"> 
+                  <Image
+                    className=""
+                    width={200}
+                    height={200}
+                    alt="hero img"
+                    src={item.img}
+                  />
+                </div>
               </a>
-            );
-          })}
-              {/* </Slider> */}
-          {/* </Marquee> */}
+              );
+            })}
+          </Slider>
         </div>
       </div>
       <div className="callus">
