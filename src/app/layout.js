@@ -75,23 +75,6 @@ export default function RootLayout({ children }) {
         <meta name="robots" content="max-image-preview:large" />
         <link rel="canonical" href="https://egdispatch.services/" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXX-X"></script>
-        {/* <script type="application/ld+json">
-          {`
-            {
-              "@context": "http://schema.org",
-              "@type": "Organization",
-              "name": "EG Dispatch Service",
-              "url": "https://egdispatch.services/",
-              "logo": "${logo.src}",
-              "sameAs": [
-                "https://t.me/EmpireGroupTeam",
-                "https://www.instagram.com/empire_group_lm?igsh=amU2cGNtMWNmdDQ4&utm_source=qr",
-                "https://api.whatsapp.com/message/ZV7PAIP47CGJN1?autoload=1&app_absent=0",
-                "https://twitter.com/egdispatchservice",
-              ]
-            }
-          `}
-        </script> */}
       </head>
       <body className={inter.className}>
         <BaseLayout>{children}</BaseLayout>
