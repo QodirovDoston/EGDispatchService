@@ -75,6 +75,7 @@ export default function RootLayout({ children }) {
         <meta name="robots" content="max-image-preview:large" />
         <link rel="canonical" href="https://egdispatch.services/" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXX-X"></script>
+        
       </head>
       <body className={inter.className}>
         <BaseLayout>{children}</BaseLayout>

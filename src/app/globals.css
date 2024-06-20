@@ -28,17 +28,13 @@
   object-fit: cover;
 }
 
+
 .home {
   background-image: url("https://img.freepik.com/free-photo/cargo-delivery-vehicle_1048-17764.jpg?t=st=1712083391~exp=1712086991~hmac=34d0e70cdd0491b971b4feb34f1d2e2d8556bc9f471981359a7ca99dd6394000&w=1380");
-  /* height: 400px; */
   object-fit: cover;
-  /* background-repeat: no-repeat; */
+  height: 530px;
+  background-size: cover;
 }
-/* .truck_serves {
-  background-image: url("https://mjdispatch.com/wp-content/uploads/2022/03/image-3-600x600.jpg");
-  background-repeat: no-repeat;
-  object-fit: cover;
-} */
 .footer {
   background-image: url("https://mjdispatch.com/wp-content/uploads/2022/02/MJDispatch-images-footer.jpg");
   background-repeat: no-repeat;
